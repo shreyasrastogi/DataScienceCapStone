@@ -1,0 +1,13 @@
+A description of the data and how it will be used to solve the problem
+
+1) We will be using toronto Postal code data containing boroughs and neighbourhood from below wikipedia page 
+   https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M 
+
+2) then we will fetch Latititude and longitude for each postal code.
+
+3)  We will be dividing the city into four zones or clusters
+    this will be done using k-means algorithm 
+
+3) Once city is divided into four region then we will use four square data to identify 3 locations in each zone which has maximum number of venues
+   If we have neigbourhood with more than 20 venues , we identify 3 places which have maximum pizza stores
+   If we have neighbourhood with only 1 venue we identify only 1 place having maximum pizza store.

@@ -1,0 +1,15 @@
+A new Worldwide Pizza Chain wants to open their stores in Toronto .
+They have a Big Brand name , To start with they want to do the following 
+
+1) They want to open 4 Pizza stores in Toronto  , 
+   they want to open stores in such a way that that they have coverage for entire city.
+
+2) they want to divide the city into Four zones , Each zone will have one store 
+   and Pizza wil be  delivered from that store to neighbourhood in that zone .
+
+3) Place to open a store will be decided on basis of below in each zone
+   If there are more than 20 venues at more than 3 neighbourhood  then we look for top 3 places which have maximum pizza store .
+   These 3 will become probabale places , our job is to identify 3 places
+   marketing dept will further work to identify 1 final place out of these 3 places.
+
+   If there are less than 20 venues at all locations then we look for only 1 top  places which have maximum pizza store
